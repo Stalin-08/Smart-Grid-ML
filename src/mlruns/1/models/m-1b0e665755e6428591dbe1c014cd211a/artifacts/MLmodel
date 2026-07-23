@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/jstal/smart-grid-mlflow/Smart-Grid-ML/src/mlruns/1/models/m-1b0e665755e6428591dbe1c014cd211a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-1b0e665755e6428591dbe1c014cd211a
+model_size_bytes: 10363
+model_uuid: m-1b0e665755e6428591dbe1c014cd211a
+prompts: null
+run_id: fd392744128c40189a79b13afcd013d3
+utc_time_created: '2026-07-23 15:50:39.123116'
