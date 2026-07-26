@@ -221,3 +221,14 @@ src/mlruns/
 venv/
 __pycache__/
 .ipynb_checkpoints/
+venv/
+__pycache__/
+*.pyc
+
+mlruns/
+mlflow.db
+*.db
+
+.ipynb_checkpoints/
+
+.DS_Store
